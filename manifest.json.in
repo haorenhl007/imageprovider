@@ -1,0 +1,17 @@
+{
+    "name": "imageprovider.liu-xiao-guo",
+    "description": "description of imageprovider",
+    "architecture": "@CLICK_ARCH@",
+    "title": "imageprovider",
+    "hooks": {
+        "imageprovider": {
+            "apparmor": "imageprovider/imageprovider.apparmor",
+            "desktop":  "imageprovider/imageprovider.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
